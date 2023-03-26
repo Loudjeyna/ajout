@@ -40,6 +40,12 @@ body{
     margin-top:  20px;
 }
 .container form{
+      width: 850px;
+    height: auto;
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+    background-color: rgb(95, 26, 26);
     position: relative;
     margin-top: 16px;
     min-height: 490px;
