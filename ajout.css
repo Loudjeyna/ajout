@@ -40,22 +40,23 @@ body{
     margin-top:  20px;
 }
 .container form{
-      width: 850px;
-    height: auto;
-    position: relative;
-    margin-top: 16px;
-    min-height: 490px;
-    background-color: rgb(95, 26, 26);
+     width: 850px;
+  height: auto;
     position: relative;
     margin-top: 16px;
     min-height: 490px;
     background-color: #fff;
 }
-.container form.détails{
-    margin-top:30px ;
-
+.container form .détails{
+    margin-top:25px ;
 }
-.container form.title{
+.container form .détails.id{
+    margin-top:10px ;
+}
+
+
+
+.container form .title{
     display: block;
     margin-bottom: 10px;
     font-size: 16px;
@@ -67,6 +68,7 @@ body{
     display: flex;
     align-content: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 form .fields .input-field{
@@ -75,11 +77,18 @@ width: calc(100% / 3 - 15px);
 flex-direction: column;
 margin: 4px 0;
 }
-.input-field label{
+.input-field .label{
     font-size: 14px;
     font-weight: 500;
+    
     color: #2e2e2e;
 }
+
+
+.input-field .placeholder {
+    font-size: 20px;
+  }
+
 .input-field input{
     outline: none;
     font-weight: 400;
