@@ -103,6 +103,7 @@ box-shadow: 0 3px 6px rgba(0, 0, 0,0.13);
     height: 40px;
     max-width: 200px;
     width: 100%;
+    font-size: 16px;
     border: none;
     outline: none;
     color: #fff;
@@ -127,3 +128,14 @@ form .buttons button{
     margin-right: 250px;
     
 }
+#myButton {
+    position: absolute;
+    top: 385px;
+    left: 550px;
+  }
+
+  #back{
+    position: absolute;
+    top: 385px;
+    left: 50px;
+  }
